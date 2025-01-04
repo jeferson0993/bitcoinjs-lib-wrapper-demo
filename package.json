@@ -1,0 +1,64 @@
+{
+  "name": "angular-bitcoin-wallet",
+  "private": true,
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Jeferson F Silva",
+    "email": "jeferson0993@gmail.com"
+  },
+  "keywords": [
+    "angular",
+    "bitcoin",
+    "wallet",
+    "typescript",
+    "bitcoinjs-lib",
+    "wrapper"
+  ],
+  "scripts": {
+    "setup": "npm link bitcoinjs-lib-wrapper",
+    "start": "ng serve",
+    "build": "ng build --configuration production",
+    "test": "ng test",
+    "test:coverage": "ng test --code-coverage",
+    "test:e2e": "cypress run",
+    "cypress:open": "cypress open",
+    "lint": "ng lint"
+  },
+  "dependencies": {
+    "@angular/animations": "^18.2.13",
+    "@angular/common": "^18.2.13",
+    "@angular/compiler": "^18.2.13",
+    "@angular/core": "^18.2.13",
+    "@angular/forms": "^18.2.13",
+    "@angular/platform-browser": "^18.2.13",
+    "@angular/platform-browser-dynamic": "^18.2.13",
+    "@angular/router": "^18.2.13",
+    "bitcoinjs-lib-wrapper": "^0.0.1",
+    "crypto-js": "^4.2.0",
+    "qrcode": "^1.5.4",
+    "rxjs": "^7.8.1",
+    "tslib": "^2.8.1",
+    "zone.js": "~0.14.10"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.2.12",
+    "@angular/cli": "^18.2.12",
+    "@angular/compiler-cli": "^18.2.13",
+    "@cypress/schematic": "^2.5.2",
+    "@types/crypto-js": "^4.2.2",
+    "@types/jasmine": "~5.1.5",
+    "@types/qrcode": "^1.5.5",
+    "autoprefixer": "^10.4.20",
+    "cypress": "^13.17.0",
+    "jasmine-core": "~5.1.2",
+    "karma": "~6.4.4",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.1",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.5.4"
+  }
+}
